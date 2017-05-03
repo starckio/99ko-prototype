@@ -10,8 +10,7 @@
 	<meta name="description" content="<?php echo $metaDescription; ?>">
 	<meta name="keywords" content="99ko,etc…">
 
-	<link rel="stylesheet" href="theme/default/styles.css" />
-	<script src="theme/default/scripts.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="<?php echo $url; ?>theme/default/styles.css" />
 	<?php eval(callHook('themeHead')); ?>
 
 </head>

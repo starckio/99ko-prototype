@@ -7,5 +7,6 @@
 	</div>
 </footer>
 
+<script type="text/javascript" src="<?php echo $url; ?>theme/default/scripts.js"></script>
 </body>
 </html>
