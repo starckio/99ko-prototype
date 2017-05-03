@@ -5,7 +5,7 @@
 	<div class="text">
 		<h1><?php echo $article->get('name'); ?></h1>
 		
-		<?php if($article->get('date') != ''){ ?>
+		<?php if($article->get('type') == 'news'){ ?>
 		<time style="color:gray;margin-bottom:1.5em;display:block;"><?php echo $article->get('date'); ?></time>
 		<?php } ?>
 		
