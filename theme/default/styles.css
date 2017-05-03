@@ -35,7 +35,7 @@ img {
 	border-style: none;
 }
 figcaption {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-size: .75em;
 	color: #959595;
 	margin-left: .5em;
@@ -82,13 +82,13 @@ a:hover {
 -------------------------------------------------- */
 html {
 	height: 101%;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 body {
 	margin: 0 auto;
-	font-size: 1.25em;
+	font-size: 1.125em;
 	line-height: 1.5em;
 	padding: 1.5em;
 	max-width: 50em;
@@ -215,11 +215,11 @@ body {
 		position: absolute;
 		z-index: -1;
 		content: '';
-		top: -.5em;
+		top: -.3em;
 		left: 1.5em;
-		border-bottom: .5em solid #222;
-		border-left: .5em solid transparent;
-		border-right: .5em solid transparent;
+		border-bottom: .4em solid #222;
+		border-left: .4em solid transparent;
+		border-right: .4em solid transparent;
 	}
 	.submenu li {
 		border-top: 1px solid #444;
@@ -312,8 +312,7 @@ h1 a, h2 a, h3 a, h4 a {
 	font-style: italic;
 	border-left: 3px solid #FF4825;
 	padding: .5em 1em;
-	margin-left: 2em;
-	margin-right: 2em;
+	margin-left: 1.5em;
 }
 .main blockquote p:last-of-type {
 	margin-bottom: 0;
@@ -331,7 +330,7 @@ h1 a, h2 a, h3 a, h4 a {
 	font-family: 'Merriweather', serif;
 }
 .text h1, .text h2, .text h3, .text h4 {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 .text > h1 {
 	margin-bottom: 1.5em;
@@ -393,7 +392,7 @@ h1 a, h2 a, h3 a, h4 a {
 }
 .field label {
 	color: #959595;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	display: block;
 }
 .field input[type="text"],
@@ -405,7 +404,7 @@ h1 a, h2 a, h3 a, h4 a {
 	background: white;
 	border: 1px solid #d4d4d4;
 	color: #222;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-size: 1em;
 	line-height: 1.5em;
 	display: block;
@@ -440,7 +439,7 @@ h1 a, h2 a, h3 a, h4 a {
 [class*='btn'], a[class*='btn'] {
 	color: #fff;
 	background: #000;
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	font-size: .8em;
 	font-weight: 700;
 	line-height: 1.5em;

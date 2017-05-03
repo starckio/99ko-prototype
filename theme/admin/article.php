@@ -33,12 +33,15 @@
 				<label><?php echo lang('Add article'); ?> ou une page</label>
 				<div>
 					<span class="drop-down"></span>
-					<select name="type" onchange="document.forms['article'].submit();">
+					<select name="type">
 			            <option value="page"><?php echo lang('Page'); ?></option>
 						<option value="news"><?php echo lang('News'); ?></option>
 					</select>
 				</div>
 			</div>
+			<input class="btn" type="submit" name="submit" value="Créer" />
+		</form>
+		<hr />
 			<ul>
 		    	<li>
 			        <ul>
@@ -64,7 +67,6 @@
 			        </ul>
 			    </li>
 			</ul>
-		</form>
 		<?php } ?>
 	</div>
 </main>

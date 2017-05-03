@@ -25,16 +25,20 @@
 	<nav class="navigation" role="navigation">
 	
 		<ul class="menu cf">
-		<?php foreach($itemsLevel1 as $item){ ?>
-			<?php if($item->get('idParent') == 0){ ?>
-			<li><a href="<?php echo $item->get('url'); ?>"><?php echo $item->get('name'); ?></a></li>
+			<?php foreach($itemsLevel1 as $item){ ?>
+			<li>
+				<?php if($item->get('idParent') != '0'){ ?>
+				<a href="<?php echo $item->get('url'); ?>"><?php echo $item->get('name'); ?></a>
+					<ul class="submenu">
+						<?php foreach($itemsLevel2[$item->get('id')] as $item2){ ?>
+						<li><a href="<?php echo $item2->get('url'); ?>"><?php echo $item2->get('name'); ?></a></li>
+						<?php } ?>
+					</ul>
+				<?php } else { ?>
+				<a href="<?php echo $item->get('url'); ?>"><?php echo $item->get('name'); ?></a>
+				<?php } ?>
+			</li>
 			<?php } ?>
-		    	<!--<ul>
-			    	<?php foreach($itemsLevel2[$item->get('id')] as $item2){ ?>
-			    	<li><a href="<?php echo $item2->get('url'); ?>"><?php echo $item2->get('name'); ?></a></li>
-			    	<?php } ?>
-		    	</ul>-->
-		<?php } ?>
 		</ul>
 	
 	</nav>
